@@ -1,0 +1,40 @@
+/* Additional CSS for setting background */
+:root {
+  --tittlecolor: white;
+  --white: pink;
+}
+.bgimage {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1591036575756-7f38747ebdb8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  position: relative;
+}
+
+.huge-text {
+  margin-top: 10%;
+  font-size: 4rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: var(--tittlecolor); /* Custom color (Coral) */
+}
+.hero_desc {
+  text-align: auto;
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: var(--tittlecolor); /* Custom color (Coral) */
+}
+
+#about {
+  padding: 100px;
+}
+.bg-secondary {
+  background-color: var(--white);
+}
+.pink {
+  background-color: tan;
+}
+.join {
+  background-color: darkkhaki;
+}
+.text {
+  background-color: darksalmon;
+}
